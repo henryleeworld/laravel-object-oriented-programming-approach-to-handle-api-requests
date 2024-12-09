@@ -1,4 +1,4 @@
-# Laravel 10 物件導向方法處理應用程式介面請求
+# Laravel 11 物件導向方法處理應用程式介面請求
 
 引入 juststeveking 的 laravel-transporter 套件來擴增物件導向方法處理應用程式介面請求，並提供了多種方法，輕而易舉地傳送應用程式的 HTTP 請求。
 
@@ -17,10 +17,10 @@ $ composer install
 $ php artisan key:generate
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
-- 你可以經由 `/api/comment/{貼文編號} 來查詢特定貼文編號相關的留言。
+- 你可以經由 `/api/v1/comment/{貼文編號} 來查詢特定貼文編號相關的留言。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/tD9xnt0.png)
+![](https://i.imgur.com/k0tFRnU.png)
 > 查詢特定貼文編號相關的留言
